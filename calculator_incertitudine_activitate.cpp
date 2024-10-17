@@ -10,22 +10,18 @@ int main()
     unsigned int N, t;  //N=arie, t=timp de achizitie
     float sigma_N, sigma_t, I, sigma_I, epsilon, sigma_epsilon;  //I=intensitatea de emisie a gamei [%], epsilon=eficacitatea de detectie [%]
 
-    cout << endl << "====================================" << endl;
     cout << "Introduceti aria picului si incertitudinea ariei: " << endl;
     cout << "N = "; cin >> N;
     cout << "sigma_N = "; cin >> sigma_N;
 
-    cout << endl << "====================================" << endl;
     cout << "Introduceti timpul de achizitie si incertitudinea timpului, in [s]: " << endl;
     cout << "t = "; cin >> t;
     cout << "sigma_t = "; cin >> sigma_t;
 
-    cout << endl << "====================================" << endl;
     cout << "Introduceti intensitatea de emisie a gamei si incertitudinea intensitatii, in [%]: " << endl;
     cout << "I = "; cin >> I;
     cout << "sigma_I = "; cin >> sigma_I;
 
-    cout << endl << "====================================" << endl;
     cout << "Introduceti eficacitatea de detectie si incertitudinea eficacitatii, in [%]: " << endl;
     cout << "epsilon = "; cin >> epsilon;
     cout << "sigma_epsilon = "; cin >> sigma_epsilon;
